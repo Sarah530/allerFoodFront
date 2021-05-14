@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1dfe483f-ef7e-41c8-bfd6-478eea47cec5" name="Default Changelist" comment="copie 2">
+    <list default="true" id="1dfe483f-ef7e-41c8-bfd6-478eea47cec5" name="Default Changelist" comment="modif">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/babel-loader/3a2c97987b408d6c97c6ecc486227ce9.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/babel-loader/3a2c97987b408d6c97c6ecc486227ce9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/babel-loader/5567f7e1dbde57cd5b121d6e2531df40.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/babel-loader/5567f7e1dbde57cd5b121d6e2531df40.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/babel-loader/63e235f3070d1dc1f8335fee895e39fc.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/babel-loader/63e235f3070d1dc1f8335fee895e39fc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/babel-loader/686b192af3bb416d300406297c5ddcde.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/babel-loader/686b192af3bb416d300406297c5ddcde.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/babel-loader/78255bbe094593b298201bc382e92ae6.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/babel-loader/78255bbe094593b298201bc382e92ae6.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/0b35f25b5c61c0c9116c36529d36f18a.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/0b35f25b5c61c0c9116c36529d36f18a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/1010418121d38b29a3344db99b02d916.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/1010418121d38b29a3344db99b02d916.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/1fb04a0066ce03b2505613461b251398.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/1fb04a0066ce03b2505613461b251398.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/2d07a0ec92b82436a88cbae87e7b38e4.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/2d07a0ec92b82436a88cbae87e7b38e4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/43134449c7ab662f92447b4f50c69438.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/43134449c7ab662f92447b4f50c69438.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/607c7da44b5fd1c37a9aa425795034bd.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/607c7da44b5fd1c37a9aa425795034bd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/68469d03ceca7fc7405a8b54f60992ec.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/68469d03ceca7fc7405a8b54f60992ec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/748900674f095ad7e279605495a30c34.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/748900674f095ad7e279605495a30c34.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/749389d833a9954bb8ad14d646418faf.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/749389d833a9954bb8ad14d646418faf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/89f57abab2e4d68776185e62ff65bedc.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/89f57abab2e4d68776185e62ff65bedc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/9de2c5fb5b3dd5045157e79975ed4421.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/9de2c5fb5b3dd5045157e79975ed4421.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/9e43b53cada2454ff77aad171bc0bf72.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/9e43b53cada2454ff77aad171bc0bf72.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/a97b673d1f01cdb3c5e4b9dd9930dbab.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/a97b673d1f01cdb3c5e4b9dd9930dbab.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/c5034acc2e5969948ba68efd52d0a775.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/c5034acc2e5969948ba68efd52d0a775.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/c64d6a6579eca366b151b668b0547c67.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/c64d6a6579eca366b151b668b0547c67.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/ca656d2087a09bffd913b06abab134fc.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/ca656d2087a09bffd913b06abab134fc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/e6b26bea90f2fb5dc85056e39913d0d7.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/e6b26bea90f2fb5dc85056e39913d0d7.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/components/Connexion.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/components/Connexion.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/components/Inscription.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/components/Inscription.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/components/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/components/NavBar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +100,7 @@
       <workItem from="1620422403277" duration="365000" />
       <workItem from="1620423770559" duration="394000" />
       <workItem from="1620425163654" duration="1457000" />
-      <workItem from="1620997376502" duration="9914000" />
+      <workItem from="1620997376502" duration="23929000" />
     </task>
     <task id="LOCAL-00001" summary="copie">
       <created>1620426020457</created>
@@ -90,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620426020457</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="modif">
+      <created>1621007494929</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621007494929</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +140,8 @@
     </ignored-roots>
     <MESSAGE value="copie" />
     <MESSAGE value="copie 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="copie 2" />
+    <MESSAGE value="modif" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
