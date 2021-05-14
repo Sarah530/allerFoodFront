@@ -18,9 +18,8 @@
         </v-app-bar-nav-icon>
 
 
-
-        <v-container fluid >
-          <v-layout fill-height justify-center >
+        <v-container fluid>
+          <v-layout fill-height justify-center>
 
             <v-img
                 src="../assets/logo1_transparent.png"
@@ -35,7 +34,8 @@
         <v-spacer></v-spacer>
 
         <v-btn icon>
-          <v-icon @click.stop="drawer_accountIcon = !drawer_accountIcon" x-large color="#CBB885">mdi-account-circle</v-icon>
+          <v-icon @click.stop="drawer_accountIcon = !drawer_accountIcon" x-large color="#CBB885">mdi-account-circle
+          </v-icon>
         </v-btn>
 
       </v-app-bar>
@@ -50,19 +50,18 @@
         <v-list
             nav
         >
-            <v-list-item
-                v-for="item in menuItems"
-                :key="item.title"
-                :to="item.path">
-              <v-list-tile-action>
-                <v-icon>{{ item.icon }}</v-icon>
-              </v-list-tile-action>
-              <v-list-tile-content>{{ item.title }}</v-list-tile-content>
-            </v-list-item>
+          <v-list-item
+              v-for="item in menuItems"
+              :key="item.title"
+              :to="item.path">
+            <v-list-tile-action>
+              <v-icon>{{ item.icon }}</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>{{ item.title }}</v-list-tile-content>
+          </v-list-item>
 
         </v-list>
       </v-navigation-drawer>
-
 
 
       <!-- icone du profil dropdown-->
@@ -97,9 +96,6 @@
 </template>
 
 
-
-
-
 <script>
 export default {
   name: "NavBar.vue",
@@ -107,29 +103,20 @@ export default {
   data: () => ({
     drawer: false,
     group: null,
-    drawer_accountIcon:false,
+    drawer_accountIcon: false,
     group2: null,
     menuItems: [
-      { title: 'Accueil', path: '/', icon: 'home' },
-      { title: 'Inscription', path: '/inscription', icon: 'face' },
-      { title: 'Connexion', path: '/connexion', icon: 'lock_open' },
-      { title: 'Recettes', path: '/recettes', icon: 'book' }
+      {title: 'Accueil', path: '/', icon: 'home'},
+      {title: 'Inscription', path: '/inscription', icon: 'face'},
+      {title: 'Connexion', path: '/connexion', icon: 'lock_open'},
+      {title: 'Recettes', path: '/recettes', icon: 'book'}
     ],
-    profilMenuItems:[
-      { title: 'Inscription', path: '/inscription', icon: 'face' },
-      { title: 'Connexion', path: '/connexion', icon: 'lock_open' },
+    profilMenuItems: [
+      {title: 'Inscription', path: '/inscription', icon: 'face'},
+      {title: 'Connexion', path: '/connexion', icon: 'lock_open'},
     ]
 
   }),
-
-  watch: {
-    group () {
-      this.drawer = false
-    },
-    group2() {
-      this.drawer_account = false
-    }
-  },
 
 
 }

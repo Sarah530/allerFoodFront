@@ -1,27 +1,26 @@
 <template>
+
   <div id="app">
 
-    <NavBar/>
+    <v-app>
+
+      <NavBar/>
+
+      <v-content class="margeChelou">
+        <router-view></router-view>
+      </v-content>
 
 
-    <router-view></router-view>
       <!--
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
        -->
-
-
-
-
-
-
-
+    </v-app>
 
 
   </div>
 
 </template>
-
 
 
 <script>
@@ -39,8 +38,14 @@ export default {
 </script>
 
 
-
 <style lang="scss">
+
+.margeChelou {
+  position: absolute;
+  top: 20px;
+  margin-left: 10px;
+}
+
 /*
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
