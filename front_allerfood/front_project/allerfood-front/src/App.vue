@@ -3,6 +3,7 @@
 
     <NavBar/>
 
+
     <router-view></router-view>
       <!--
       <router-link to="/">Home</router-link> |
@@ -27,9 +28,11 @@
 
 import NavBar from "./components/NavBar";
 
+
 export default {
   name: ' NavBar',
-  components: {NavBar}
+  components: {NavBar},
+
 
 }
 

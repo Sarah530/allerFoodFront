@@ -1,0 +1,146 @@
+<div id="app">
+
+
+    <v-app id="inspire">
+
+      <v-app-bar
+          prominent
+          app
+          color="white"
+      >
+
+        <v-app-bar-nav-icon
+            @click.stop="drawer = !drawer"
+            x-large
+            color="#85CB85"
+        >
+        </v-app-bar-nav-icon>
+
+
+
+        <v-container fluid >
+          <v-layout fill-height justify-center >
+
+            <v-img
+                src="../assets/logo1_transparent.png"
+                max-height="120"
+                max-width="120"
+
+
+            ></v-img>
+
+          </v-layout>
+        </v-container>
+        <v-spacer></v-spacer>
+
+        <v-btn icon>
+          <v-icon @click.stop="drawer_account = !drawer_account" x-large color="#CBB885">mdi-account-circle</v-icon>
+        </v-btn>
+
+      </v-app-bar>
+
+      <!-- menu hamburger dropdown-->
+      <v-navigation-drawer
+          v-model="drawer"
+          absolute
+          temporary
+      >
+        <v-list
+            nav
+        >
+          <v-list-item-group
+              v-model="group"
+              active-class="white--text"
+          >
+            <v-list-item>
+              <v-list-item-title>Connexion</v-list-item-title>
+            </v-list-item>
+
+            <v-list-item>
+              <v-list-item-title>Inscription</v-list-item-title>
+            </v-list-item>
+
+            <v-list-item>
+              <v-list-item-title>Recettes</v-list-item-title>
+            </v-list-item>
+
+          </v-list-item-group>
+        </v-list>
+      </v-navigation-drawer>
+
+
+      <!-- icone du profil dropdown-->
+      <v-navigation-drawer
+          v-model="drawer_account"
+          absolute
+          temporary
+
+      >
+        <v-list
+            nav
+        >
+          <v-list-item-group
+              v-model="group2"
+              active-class="white--text"
+          >
+            <v-list-item>
+              <v-list-item-title>Connexion</v-list-item-title>
+            </v-list-item>
+
+            <v-list-item>
+              <v-list-item-title>Inscription</v-list-item-title>
+            </v-list-item>
+
+
+          </v-list-item-group>
+        </v-list>
+      </v-navigation-drawer>
+
+    </v-app>
+
+  </div>
+
+
+<script>
+export default {
+  name: "NavBar.vue",
+
+  data: () => ({
+    drawer: false,
+    group: null,
+    drawer_account:false,
+    group2: false
+  }),
+
+  watch: {
+    group () {
+      this.drawer = false
+    },
+    group2() {
+      this.drawer_account = false
+    }
+  },
+
+
+}
+
+
+</script>
+
+
+dossier routes index.js
+
+const routes = [
+  {
+    path: '/',
+    name: 'Home',
+    component: Home
+  },
+  {
+    path: '/about',
+    name: 'About',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+  },

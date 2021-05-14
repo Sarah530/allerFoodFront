@@ -35,7 +35,7 @@
         <v-spacer></v-spacer>
 
         <v-btn icon>
-          <v-icon @click.stop="drawer_account = !drawer_account" x-large color="#CBB885">mdi-account-circle</v-icon>
+          <v-icon @click.stop="drawer_accountIcon = !drawer_accountIcon" x-large color="#CBB885">mdi-account-circle</v-icon>
         </v-btn>
 
       </v-app-bar>
@@ -45,34 +45,29 @@
           v-model="drawer"
           absolute
           temporary
+
       >
         <v-list
             nav
         >
-          <v-list-item-group
-              v-model="group"
-              active-class="white--text"
-          >
-            <v-list-item>
-              <v-list-item-title>Connexion</v-list-item-title>
+            <v-list-item
+                v-for="item in menuItems"
+                :key="item.title"
+                :to="item.path">
+              <v-list-tile-action>
+                <v-icon>{{ item.icon }}</v-icon>
+              </v-list-tile-action>
+              <v-list-tile-content>{{ item.title }}</v-list-tile-content>
             </v-list-item>
 
-            <v-list-item>
-              <v-list-item-title>Inscription</v-list-item-title>
-            </v-list-item>
-
-            <v-list-item>
-              <v-list-item-title>Recettes</v-list-item-title>
-            </v-list-item>
-
-          </v-list-item-group>
         </v-list>
       </v-navigation-drawer>
 
 
+
       <!-- icone du profil dropdown-->
       <v-navigation-drawer
-          v-model="drawer_account"
+          v-model="drawer_accountIcon"
           absolute
           temporary
 
@@ -80,20 +75,18 @@
         <v-list
             nav
         >
-          <v-list-item-group
-              v-model="group2"
-              active-class="white--text"
-          >
-            <v-list-item>
-              <v-list-item-title>Connexion</v-list-item-title>
-            </v-list-item>
 
-            <v-list-item>
-              <v-list-item-title>Inscription</v-list-item-title>
-            </v-list-item>
+          <v-list-item
+              v-for="item in profilMenuItems"
+              :key="item.title"
+              :to="item.path">
+            <v-list-tile-action>
+              <v-icon>{{ item.icon }}</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>{{ item.title }}</v-list-tile-content>
+          </v-list-item>
 
 
-          </v-list-item-group>
         </v-list>
       </v-navigation-drawer>
 
@@ -114,8 +107,19 @@ export default {
   data: () => ({
     drawer: false,
     group: null,
-    drawer_account:false,
-    group2: false
+    drawer_accountIcon:false,
+    group2: null,
+    menuItems: [
+      { title: 'Accueil', path: '/', icon: 'home' },
+      { title: 'Inscription', path: '/inscription', icon: 'face' },
+      { title: 'Connexion', path: '/connexion', icon: 'lock_open' },
+      { title: 'Recettes', path: '/recettes', icon: 'book' }
+    ],
+    profilMenuItems:[
+      { title: 'Inscription', path: '/inscription', icon: 'face' },
+      { title: 'Connexion', path: '/connexion', icon: 'lock_open' },
+    ]
+
   }),
 
   watch: {

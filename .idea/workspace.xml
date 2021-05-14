@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1dfe483f-ef7e-41c8-bfd6-478eea47cec5" name="Default Changelist" comment="" />
+    <list default="true" id="1dfe483f-ef7e-41c8-bfd6-478eea47cec5" name="Default Changelist" comment="copie 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/babel-loader/686b192af3bb416d300406297c5ddcde.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/babel-loader/686b192af3bb416d300406297c5ddcde.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/0b35f25b5c61c0c9116c36529d36f18a.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/0b35f25b5c61c0c9116c36529d36f18a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/1010418121d38b29a3344db99b02d916.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/1010418121d38b29a3344db99b02d916.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/1fb04a0066ce03b2505613461b251398.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/1fb04a0066ce03b2505613461b251398.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/c64d6a6579eca366b151b668b0547c67.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/node_modules/.cache/vue-loader/c64d6a6579eca366b151b668b0547c67.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/components/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/components/NavBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_allerfood/front_project/allerfood-front/src/router/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +25,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1r9yGMeYLcN6A5Mrawq6neHgiwg" />
@@ -24,6 +40,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -41,6 +58,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\allerFood-front\front_allerfood\front_project\allerfood-front\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sarah\Documents\ESI RPI\allerFood-front-copie\front_allerfood\front_project\allerfood-front\src\components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,8 +80,17 @@
       <workItem from="1620393730807" duration="25789000" />
       <workItem from="1620422403277" duration="365000" />
       <workItem from="1620423770559" duration="394000" />
-      <workItem from="1620425163654" duration="482000" />
+      <workItem from="1620425163654" duration="1457000" />
+      <workItem from="1620997376502" duration="9914000" />
     </task>
+    <task id="LOCAL-00001" summary="copie">
+      <created>1620426020457</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620426020457</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +112,9 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/front_allerfood" />
     </ignored-roots>
+    <MESSAGE value="copie" />
+    <MESSAGE value="copie 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="copie 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
