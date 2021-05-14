@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Inscription from "../components/Inscription";
 import Connexion from "../components/Connexion";
+import Deconnexion from "../components/Deconnexion";
 
 Vue.use(VueRouter)
 
@@ -30,6 +31,12 @@ const routes = [
     path: "/connexion",
     name: "Connexion",
     component : Connexion
+  },
+
+  {
+    path: "/deconnexion",
+    name: "Deconnexion",
+    component : Deconnexion
   },
 
 

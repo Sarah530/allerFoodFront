@@ -74,20 +74,20 @@
         mdp: "",
         confirmMdp: "",
         identifiantRules : [
-          v => !!v || "Required",
+          v => !!v || "Champs requis",
         ],
         loginEmailRules: [
-          v => !!v || "Required",
-          v => /.+@.+\..+/.test(v) || "E-mail must be valid"
+          v => !!v || "Champs requis",
+          v => /.+@.+\..+/.test(v) || "E-mail non-valide"
         ],
         emailRules: [
           v => !!v || "Required",
-          v => /.+@.+\..+/.test(v) || "E-mail must be valid"
+          v => /.+@.+\..+/.test(v) || "E-mail non-valide"
         ],
 
         rules: {
-          required: value => !!value || "Required",
-          min: v => (v && v.length >= 8) || "Min 8 characters",
+          required: value => !!value || "Champs requis",
+          min: v => (v && v.length >= 8) || "Minimum 8 caractères"
 
         },
 

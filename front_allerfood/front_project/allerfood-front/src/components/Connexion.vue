@@ -46,12 +46,13 @@ export default {
   data: () => ({
 
     emailRules: [
-      v => !!v || "Required",
-      v => /.+@.+\..+/.test(v) || "E-mail must be valid"
+      v => !!v || "Champs requis",
+      v => /.+@.+\..+/.test(v) || "E-mail non-valide"
     ],
     rules: {
-      required: value => !!value || "Required"
-    }
+      required: value => !!value || "Champs requis"
+    },
+
 
 
   })

@@ -47,11 +47,13 @@
           temporary
 
       >
+        <!--menu hamburger si user connecté-->
         <v-list
+            v-if="userConnected"
             nav
         >
           <v-list-item
-              v-for="item in menuItems"
+              v-for="item in menuItemsIfConnected"
               :key="item.title"
               :to="item.path">
             <v-list-tile-action>
@@ -59,24 +61,40 @@
             </v-list-tile-action>
             <v-list-tile-content>{{ item.title }}</v-list-tile-content>
           </v-list-item>
+        </v-list>
 
+        <!--menu hamburger si user non connecté-->
+        <v-list
+            v-else
+            nav
+        >
+          <v-list-item
+              v-for="item in menuItemsForAll"
+              :key="item.title"
+              :to="item.path">
+            <v-list-tile-action>
+              <v-icon>{{ item.icon }}</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>{{ item.title }}</v-list-tile-content>
+          </v-list-item>
         </v-list>
       </v-navigation-drawer>
 
 
-      <!-- icone du profil dropdown-->
+      <!-- menu icon du profil dropdown -->
       <v-navigation-drawer
           v-model="drawer_accountIcon"
           absolute
           temporary
 
       >
+        <!-- menu icon du profil si user connecté -->
         <v-list
+            v-if="userConnected"
             nav
         >
-
           <v-list-item
-              v-for="item in profilMenuItems"
+              v-for="item in profilMenuItemsIfConnected"
               :key="item.title"
               :to="item.path">
             <v-list-tile-action>
@@ -84,8 +102,22 @@
             </v-list-tile-action>
             <v-list-tile-content>{{ item.title }}</v-list-tile-content>
           </v-list-item>
+        </v-list>
 
-
+          <!-- menu icon du profil si user non connecté -->
+          <v-list
+              v-else
+              nav
+          >
+          <v-list-item
+              v-for="item in profilMenuItemsForAll"
+              :key="item.title"
+              :to="item.path">
+            <v-list-tile-action>
+              <v-icon>{{ item.icon }}</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>{{ item.title }}</v-list-tile-content>
+          </v-list-item>
         </v-list>
       </v-navigation-drawer>
 
@@ -105,16 +137,32 @@ export default {
     group: null,
     drawer_accountIcon: false,
     group2: null,
-    menuItems: [
+    userConnected: false,
+
+    menuItemsForAll: [
       {title: 'Accueil', path: '/', icon: 'home'},
-      {title: 'Inscription', path: '/inscription', icon: 'face'},
-      {title: 'Connexion', path: '/connexion', icon: 'lock_open'},
+      {title: 'Inscription', path: '/inscription', icon: 'lock_open'},
+      {title: 'Connexion', path: '/connexion', icon: 'login'},
       {title: 'Recettes', path: '/recettes', icon: 'book'}
     ],
-    profilMenuItems: [
+    menuItemsIfConnected: [
+      {title: 'Accueil', path: '/', icon: 'home'},
+      {title: 'Mes Recettes Favorites', path: '/recettesFavorites', icon: 'favorite'},
+      {title: 'Mon Carnet de Recettes', path: '/carnetRecettes', icon: 'book'},
+      {title: 'Mon Profil', path: '/profil', icon: 'face'},
+      {title: 'Déconnexion', path: '/deconnexion', icon: 'logout'},
+    ],
+    profilMenuItemsForAll: [
       {title: 'Inscription', path: '/inscription', icon: 'face'},
       {title: 'Connexion', path: '/connexion', icon: 'lock_open'},
-    ]
+    ],
+    profilMenuItemsIfConnected: [
+      {title: 'Accueil', path: '/', icon: 'home'},
+      {title: 'Mes Recettes Favorites', path: '/recettesFavorites', icon: 'favorite'},
+      {title: 'Mon Carnet de Recettes', path: '/carnetRecettes', icon: 'book'},
+      {title: 'Mon Profil', path: '/profil', icon: 'face'},
+      {title: 'Déconnexion', path: '/deconnexion', icon: 'logout'},
+    ],
 
   }),
 
